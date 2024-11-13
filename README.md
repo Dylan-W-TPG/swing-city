@@ -1,8 +1,5 @@
-> # COMP3151 - Progress Report 1
-> Dylan Wijesinghe - 47292105 <br> Gian-Luca Battaglia - 47416084 <br> Zion Xiaoxi Su - 46340661 <br> William Dixon - 47391146
+> Dylan Wijesinghe <br> Gian-Luca Battaglia <br> Zion Xiaoxi Su <br> William Dixon
 
-> # Current Progress
-> We have made significant progress throughout the development process. At this point, we have developed all the core mechanics for the game.
 >
 > ## Movement
 > 
@@ -55,37 +52,3 @@
 > https://github.com/user-attachments/assets/39a8ea4e-8c60-4eeb-9b20-08a0e5895046
 
 ---------------------------------------------------------------------------
- 
-> # Reflection
-> Throughout project development, we have encountered numerous roadblocks that have impacted our game’s development and required changes to rectify. These roadblocks range from being small to quite significant to our development cycle.<br>
->
-> One such instance was during the development of the first-person camera, where two camera systems were developed at the same time that worked quite differently from one another. This meant that when it came time to implement the camera with the player, there was confusion over which one to keep and which to discard. Eventually, both systems had to be merged, as there were some features that we desired for the player that could only work well in one of the camera systems, but the second system did other things more efficiently. This situation could have been avoided or lessened if collaboration between the team was more frequent and covered the work we were doing more comprehensively. <br>
->
-> Another instance of this was during the designing of maps for the game, where it seemed that everyone was working on a different scene for a while, which meant that making changes to certain aspects was difficult. These maps also included many objects, making modifications of them and changing each object’s layer to reflect whether it could be grappled or wall run, etc, was cumbersome. In the end, we managed to make most things that needed to be in multiple scenes into prefabs and began using certain tools such as ProBuilder to make developing new maps easier and more frictionless, though this could have been avoided had we done these things in the first place.<br>
->
-> Ultimately, while we believe we have made good progress with the development of our game, there have been numerous challenges throughout the semester that we have had to recognise and overcome. After reflecting on them, it is clear that significant changes in development have been and will continue to be made to get our project done promptly and with a level of quality that we can be proud of. 
-
----
-
-> # Changes in Development
-> The changes in development that have been made for our project have been quite frequent, which we had expected due to how quickly we have had to come up with a new game idea to design mechanics for and build upon over 6 weeks. However, some changes have been made after reflection and feedback that have fundamentally affected the design of our game, which we will go into more detail about in this section. <br>
->
-> Firstly, the roles that we initially assigned ourselves have been subject to change depending on what needs to be done at that moment. For instance, Luca was originally supposed to be the lead playtester for our project, but since the beginning of the semester, he has been more involved with the programming side due to the amount of work that needed to be done. Our approach to playtesting has also been quite spread out over the team, with each person getting others to play their branch’s version and making changes based on feedback. This shows that consideration of priorities has been taken into account across the team.<br>
-> 
-> Another change made was the way that we would design levels. At first, we were planning on implementing non-linear levels that had larger places to explore, but upon feedback, we decided that we should make more linear levels to play to the strengths of our game rather than having a larger scope that would be harder to meet. This demonstrates that our team can respond to feedback quickly to improve the end experience. <br>
->
-> These changes have affected our production plan by altering the scope and completion timeline of our project. A smaller scope concerning levels and level content should make it much easier for us to hit our design goals and milestones over the rest of our semester, resulting in our completion timeline being more spread out. They have also affected how view certain aspects of our game during design and development, ensuring we are more open to feedback and alterations. In the end, we believe that the changes that we have made have served to positively impact both the development experience and the final product. <br>
->
----
-> # Playtesting
-> ### Playtesting Approach
-> Throughout the development of the project, we adopted an iterative playtesting approach, where team members developed separate mechanics and tested them using a basic player controller. As the project progressed, these mechanics were further tested with a more advanced player controller that included features such as wall running and sliding.<br>
->
-> ### Playtesting Influence on Design <br>
-> By using this approach, it significantly influenced how the initial development of mechanics was handled, as it allowed us to rapidly prototype and integrate new features within the group without the need for external playtesters for the first half of the semester.<br>
->
-> During development team members worked on their mechanics in separate branches, which resulted in individual playtests in each member's branch. This consequently led to the creation of 4 separate versions of the mechanics' parameters like player walk speed and jump height to be created for each player's branch. Due to this method of playtesting being highly individualised, it naturally led to highly integrable and adjustable mechanics, ensuring that the team did not need to constantly reset values when updating scenes.<br>
->
-> Through this process of having 4 separate versions of mechanics parameters, we were also able to determine an optimal range for player controls, such as swinging and grappling early on, enabling the creation of a single, refined version of control input values for the player. This also fits the requirements for all the other mechanics dependent on it such as wall running requiring the player to reach over a specific threshold of momentum provided by the player's movement to execute. <br>
->
-> ---
